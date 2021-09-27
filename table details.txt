@@ -1,0 +1,11 @@
+cod. mecc
+100 - codd fabricatie, gama 
+100 - lungime de deschis cilindru
+04 - cate unitati ies una din alta
+12 - tonaj, cat poate ridica x 1000 kg
+
+diam la cilindri la fiecare in parte
+
+blocat sfilate(diam in mm)
+blocat dimensione dei cilindri in mm de la e in colo inclus kg si content olio
+

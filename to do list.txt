@@ -1,0 +1,20 @@
+1.Design layouts
+1.1.Make sure lion logo makes client happy
+1.2.Make sure layouts make client happy
+1.3.After confirmation, make layouts for all screen sizes and sections
+1.4.make a style guide
+
+2.gather resources(images, tables,names, descriptions)
+2.1.TOM-start playing with yourself--->tables of course and user registration/log in
+
+3.settle on the motherfucker(architecture)
+3.1.understand how back end and the front end will work together
+3.2.have a list of everything the site needs to have
+
+4.code the motherfucker(make sure we pass the data from front end to back end)
+
+5.fix bugs, and more bugs and more bugs and more.... and optimize
+
+6.show finished product and rigurously test the motherfucker
+
+7.taddaaaaaa
