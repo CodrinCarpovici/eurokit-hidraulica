@@ -12,6 +12,7 @@
 /build
 
 # misc
+/src/docs/CUS-HYDRAULICS-rss.pdf
 .DS_Store
 .env.local
 .env.development.local
