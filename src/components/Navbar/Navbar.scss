@@ -1,0 +1,60 @@
+$dark-grey: rgba(169, 169, 169, 1);
+$light-gray: rgba(169, 169, 169, 1);
+$dark-orange: rgba(240, 96, 0, 1);
+$orange: rgba(255, 125, 39, 1);
+$blue: rgba(0, 166, 243, 1);
+$blue-gradient: linear-gradient(to left, #00a6f3, white);
+
+//*******************NAVBAR*********************//
+
+.navbar {
+  background: $blue-gradient;
+  position: fixed;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+
+  .nav-container {
+    width: 100% !important;
+  }
+
+  //*****************BRAND**********************//
+
+  .navbar-logo {
+    padding: 0px !important;
+  }
+
+  #logo {
+    width: auto;
+    height: 59px;
+  }
+
+  #logo-offcanvas {
+    width: auto;
+    height: 54px;
+  }
+
+  @media (max-width: 1200px) {
+    #logo {
+      width: auto;
+      height: 50px;
+    }
+  }
+
+  //*********************NAV-LINKS*****************//
+
+  .nav-links {
+    margin-right: 20px;
+    color: black !important;
+  }
+  .nav-link {
+    border: 0.1875rem solid transparent;
+  }
+  .nav-link.active,
+  .nav-link:focus,
+  .nav-link:hover {
+    border-bottom: 0.1875rem solid $orange;
+  }
+}

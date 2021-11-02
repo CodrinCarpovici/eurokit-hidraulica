@@ -1,0 +1,25 @@
+$dark-grey: rgba(169, 169, 169, 1);
+$light-gray: rgba(169, 169, 169, 1);
+$dark-orange: rgba(240, 96, 0, 1);
+$orange: rgba(255, 125, 39, 1);
+$light-orange: rgb(248, 197, 164);
+$orange-gradient: linear-gradient(to left, $orange, white);
+
+//******************SEARCH****************//
+
+.btn-secondary {
+  border: 1px solid $light-orange !important;
+  color: white !important;
+  background-color: $orange !important;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background-color: $dark-orange !important;
+  color: white !important;
+}
+
+.search-field {
+  margin-left: 10px !important;
+  display: inline-block;
+}
