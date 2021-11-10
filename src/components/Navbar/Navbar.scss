@@ -43,7 +43,53 @@ $blue-gradient: linear-gradient(to left, #00a6f3, white);
     }
   }
 
+  @media (max-width: 515px) {
+    #logo {
+      width: auto;
+      height: 35px;
+    }
+
+    .navbar-toggle .icon-bar {
+      width: 10px !important;
+      height: 3px !important;
+    }
+  }
+
+  @media (max-width: 420px) {
+    #logo {
+      display: none;
+    }
+  }
+
+  .small-logo {
+    display: none;
+    width: auto;
+    height: 59px;
+  }
+
+  @media (max-width: 420px) {
+    .small-logo {
+      display: initial;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .small-logo {
+      display:none;
+    }
+  }
+
   //*********************NAV-LINKS*****************//
+
+  @media (max-width: 515px) {
+    .hamburger {
+      max-width: 50px !important;
+    }
+
+    .burger-icon {
+      width: 25px !important;
+    }
+  }
 
   .nav-links {
     margin-right: 20px;

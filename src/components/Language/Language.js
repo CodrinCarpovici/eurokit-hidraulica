@@ -5,7 +5,7 @@ import globe from "bootstrap-icons/icons/globe.svg";
 
 const Language = () => {
   return (
-    <div className="dropdown language d-inline-block">
+    <div className="dropdown language d-inline-block ">
       <a
         className="btn btn-info dropdown-toggle language top-right-link-2"
         href="#"
@@ -14,10 +14,10 @@ const Language = () => {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        <img src={globe}></img>
+        <img className="globe" src={globe}></img>
       </a>
 
-      <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
         <li>
           <a className="dropdown-item" href="#">
             English

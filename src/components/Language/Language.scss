@@ -10,9 +10,26 @@ $blue-gradient: linear-gradient(to left, #00a6f3, white);
 .language {
   color: black;
   display: inline-block;
+
+  .globe {
+    color: white;
+  }
 }
 
 .language:hover {
   color: white !important;
   background: $blue !important;
+
+  .globe {
+    filter: invert(99%) sepia(4%) saturate(63%) hue-rotate(281deg) brightness(114%) contrast(100%);
+    transition: 0.1s ease-in;
+  }
 }
+
+@media (max-width: 515px) {
+  .language {
+    max-width: 50px !important;
+    height: auto !important;
+  }
+}
+

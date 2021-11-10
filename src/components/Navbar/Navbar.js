@@ -3,6 +3,7 @@ import "./Navbar.scss";
 
 //ICONS AND IMAGES
 import logo from "../../assets/img/logo.png";
+import logoSmall from "../../assets/img/logoSmall.png";
 
 //COMPONENTS
 import Search from "../Search/Search.js";
@@ -16,16 +17,17 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-xl navbar-light fixed-top">
       {/* BRAND */}
       <div className="container-fluid nav-container">
-        <div className="col-auto d-inline-block d-flex justify-content-center navbar-logo">
+        <div className="col-md-auto d-inline-block d-flex justify-content-center navbar-logo">
           <a className="navbar-brand" href="#">
             <img src={logo} id="logo" className="img-fluid mx-auto "></img>
+            <img src={logoSmall} className="img-fluid mx-auto small-logo"></img>
           </a>
         </div>
 
         {/* HAMBURGER */}
         <div className="col-auto order-first">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler hamburger"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasExample"
@@ -33,7 +35,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon burger-icon"></span>
           </button>
         </div>
 
@@ -77,10 +79,9 @@ const Navbar = () => {
         </div>
 
         {/* TOP LINKS */}
-        <div className="col-auto d-flex justify-content-end top-right-links">
+        <div className="col-md-auto d-flex justify-content-end top-right-links">
 
-          {/*SEARCH */}
-          <Search />
+
 
           {/* LOG IN */}
 
