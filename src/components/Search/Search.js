@@ -3,22 +3,24 @@ import "./Search.scss";
 import search from "bootstrap-icons/icons/search.svg";
 
 const Search = () => (
-  <div className="d-inline-block d-flex justify-content-end">
-    <form className="navbar-form d-flex top-right-link" role="search">
-      <div className="input-group col-md-12">
-        <input
-          type="text"
-          className="search-query form-control"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <span className="input-group-btn">
-          <button className="btn btn-secondary" type="button">
-            <img src={search}></img>
-          </button>
-        </span>
+  <div className="container searchbar start-50 translate-middle-x">
+    <div className="row align-items-center">
+      <div class="col-lg-6 mx-auto">
+        <div className="d-flex input-group">
+          <input
+            className="form-control searchfield rounded-pill-left border-right-0 shadow-none"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <span class="input-group-append">
+            <button className="btn btn-secondary shadow-none border rounded-pill-right border-left-0" type="submit">
+              <img src={search} class="search-icon"></img>
+            </button>
+          </span>
+        </div>
       </div>
-    </form>
+    </div>
   </div>
 );
 

@@ -1,0 +1,110 @@
+$dark-orange: rgba(240, 96, 0, 1);
+$orange: rgba(255, 125, 39, 1);
+$blue: rgba(0, 166, 243, 1); 
+$dark-blue: rgb(0, 121, 177); 
+
+.header-intro {
+  position: absolute !important;
+  z-index: 99;
+  top: 24%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+
+  .title {
+    color: $orange;
+    font-weight: 700;
+    font-size: 34px;
+    border-bottom: 1px solid;
+  }
+
+  .header-text {
+    color: white;
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 24px;
+    }
+
+    .header-text {
+      font-size: 18px;
+    }
+
+    br {
+      display: none; /* hide the BR tag for wider screens (i.e. disable the line break) */
+    }
+  }
+
+  //Link Buttons
+  .products-offer {
+    position: absolute;
+    top: 102%;
+    left: 0%;
+    background-color: $orange;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .products-offer:hover {
+    background-color: $dark-orange;
+    color: white;
+  }
+
+  .contact-offer {
+    position: absolute;
+    top: 102%;
+    left: 30%;
+    background-color: $blue;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .contact-offer:hover {
+    background-color: $dark-blue;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .contact-offer, .products-offer {
+      font-size: 24px;
+    }
+    .contact-offer {
+      left: 46%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .contact-offer, .products-offer {
+      font-size: 20px;
+    }
+    .contact-offer {
+      left: 46%;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .contact-offer, .products-offer {
+      font-size: 20px;
+    }
+    .contact-offer {
+      left: 50%;
+    }
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .header-intro {
+    min-width: 80vw;
+  }
+}

@@ -9,6 +9,7 @@ $blue-gradient: linear-gradient(270deg, #00a6f3 0%, rgb(255, 255, 255) 72.92%);
 html, body  {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 
     font-family: 'Roboto Condensed', sans-serif !important;
 }

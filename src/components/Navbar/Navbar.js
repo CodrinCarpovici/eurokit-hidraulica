@@ -1,27 +1,27 @@
 import React from "react";
 import "./Navbar.scss";
 
+//ROUTER
+import { Link } from "react-router-dom";
+
 //ICONS AND IMAGES
 import logo from "../../assets/img/logo.png";
 import logoSmall from "../../assets/img/logoSmall.png";
 
 //COMPONENTS
-import Search from "../Search/Search.js";
 import Login from "../Login/Login.js";
 import Language from "../Language/Language";
 
-
-
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-xl navbar-light fixed-top">
+    <nav className="navbar navbar-expand-xl navbar-light sticky-top">
       {/* BRAND */}
       <div className="container-fluid nav-container">
         <div className="col-md-auto d-inline-block d-flex justify-content-center navbar-logo">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src={logo} id="logo" className="img-fluid mx-auto "></img>
             <img src={logoSmall} className="img-fluid mx-auto small-logo"></img>
-          </a>
+          </Link>
         </div>
 
         {/* HAMBURGER */}
@@ -58,21 +58,31 @@ const Navbar = () => {
             </div>
             <div className="offcanvas-body">
               <div className="navbar-nav">
-                <a className="nav-item nav-link" href="#Home">
-                  Home
-                </a>
-                <a className="nav-item nav-link" href="#About">
-                  About
-                </a>
-                <a className="nav-item nav-link" href="#">
-                  Products
-                </a>
-                <a className="nav-item nav-link" href="#">
-                  Accessories
-                </a>
-                <a className="nav-item nav-link" href="#">
-                  Contact
-                </a>
+                <li data-bs-toggle="offcanvas">
+                  <Link className="nav-item nav-link d-flex justify-content-center" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li data-bs-toggle="offcanvas">
+                  <Link className="nav-item nav-link d-flex justify-content-center" to="/about">
+                    About
+                  </Link>
+                </li>
+                <li data-bs-toggle="offcanvas">
+                  <Link className="nav-item nav-link d-flex justify-content-center" to="/products">
+                    Products
+                  </Link>
+                </li>
+                <li data-bs-toggle="offcanvas">
+                  <Link className="nav-item nav-link d-flex justify-content-center" to="/accessories">
+                    Accessories
+                  </Link>
+                </li>
+                <li data-bs-toggle="offcanvas">
+                  <Link className="nav-item nav-link d-flex justify-content-center" to="/contact">
+                    Contact
+                  </Link>
+                </li>
               </div>
             </div>
           </div>
@@ -80,9 +90,6 @@ const Navbar = () => {
 
         {/* TOP LINKS */}
         <div className="col-md-auto d-flex justify-content-end top-right-links">
-
-
-
           {/* LOG IN */}
 
           <Login />

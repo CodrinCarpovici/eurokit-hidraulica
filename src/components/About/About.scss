@@ -1,0 +1,12 @@
+#about {
+  position: relative !important;
+  background-color: pink;
+
+  .about-text {
+    z-index: 99;
+    top: 24%;
+  }
+
+  .about-title {
+  }
+}
