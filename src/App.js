@@ -19,7 +19,7 @@ import { Switch, Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <>
+
       <Navbar />
       <Search />
       <Switch>  
@@ -30,7 +30,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route component={Error} />
       </Switch>       
-      </>
+
     </div>
   );
 }

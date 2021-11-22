@@ -14,7 +14,7 @@ import Language from "../Language/Language";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-xl navbar-light sticky-top">
+    <nav className="navbar navbar-expand-xl navbar-light fixed-top">
       {/* BRAND */}
       <div className="container-fluid nav-container">
         <div className="col-md-auto d-inline-block d-flex justify-content-center navbar-logo">

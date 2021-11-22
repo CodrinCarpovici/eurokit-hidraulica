@@ -6,9 +6,9 @@ import "./Home.scss";
 import Header from "../Header/Header";
 
 //ASSETS
-import truck2 from "../../assets/img/truck2.jpg";
+import home2 from "../../assets/img/home2.jpg";
 import home1 from "../../assets/img/home1.jpg";
-import truck3 from "../../assets/img/truck3.jpeg";
+import home3 from "../../assets/img/home3.jpg";
 
 const Home = () => {
   return (
@@ -53,7 +53,7 @@ const Home = () => {
           </div>
           <div className="carousel-item">
             <img
-              src={truck2}
+              src={home3}
               className="d-block w-100 slide-image"
               alt="..."
             ></img>
@@ -62,7 +62,7 @@ const Home = () => {
           </div>
           <div className="carousel-item">
             <img
-              src={truck3}
+              src={home2}
               className="d-block w-100 slide-image"
               alt="..."
             ></img>

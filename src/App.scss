@@ -1,15 +1,13 @@
 $black: rgba(0, 0, 0, 1);
 $dark-grey: rgba(169, 169, 169, 1);
-$light-gray: rgba(169, 169, 169, 1);
+$light-gray: rgb(202, 202, 202);
 $dark-orange: rgba(240, 96, 0, 1);
 $orange: rgba(255, 125, 39, 1);
 $blue: rgba(0, 166, 243, 1); 
 $blue-gradient: linear-gradient(270deg, #00a6f3 0%, rgb(255, 255, 255) 72.92%);
 
 html, body  {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
+    max-width: 100vw !important;
 
     font-family: 'Roboto Condensed', sans-serif !important;
 }
