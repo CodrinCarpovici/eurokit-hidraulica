@@ -8,23 +8,27 @@ $orange-gradient: linear-gradient(to left, $orange, white);
 //******************SEARCH****************//
 
 .searchbar {
-  position: absolute !important;
+  position: fixed !important;
   z-index: 100;
-  top: 18%;
+  top: 8%;
 
-  @media (max-width: 768px) {
-    .searchbar {
-      top: 28%;
-    }
+  .visually-hidden1 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
   }
 
   .searchfield,
   .searchfield:focus {
-    border: 1px solid $orange;
+    border: 3px solid $orange;
   }
 
   .btn-secondary {
-    border: 1px solid $orange !important;
+    border: 3px solid $orange !important;
     color: white !important;
     background-color: $orange !important;
     display: inline-block;
@@ -74,4 +78,8 @@ $orange-gradient: linear-gradient(to left, $orange, white);
   }
 }
 
-
+@media (max-width: 768px) {
+  .searchbar {
+    top: 14% !important;
+  }
+}

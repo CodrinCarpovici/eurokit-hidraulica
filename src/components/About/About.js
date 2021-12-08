@@ -1,19 +1,19 @@
 import React from "react";
 import "./About.scss";
 
-import truck2 from "../../assets/img/truck2.jpg";
+import home1 from "../../assets/img/home1.jpg";
 
 const About = () => {
   return (
     <div id="about" className="container about-wrapper py-5">
       <div className="row content">
-        <div className="col d-flex justify-content-center">
+        <div className="col-lg-6 col-xm-12 d-flex justify-content-center">
           <div className="img-wrapper">
-            <img className="about-img" src={truck2} alt="author..."></img>
+            <img className="about-img" src={home1} alt="author..."></img>
           </div>
         </div>
 
-        <div className="col about-text">
+        <div className="col-lg-6 col-xm-12 about-text">
           <h3 className="header" id="title">
             OUR COMPANY
           </h3>

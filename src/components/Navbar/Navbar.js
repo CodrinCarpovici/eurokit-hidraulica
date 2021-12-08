@@ -10,7 +10,7 @@ import logoSmall from "../../assets/img/logoSmall.png";
 
 //COMPONENTS
 import Login from "../Login/Login.js";
-import Language from "../Language/Language";
+import Language from "../Language/Language.js";
 
 const Navbar = () => {
   return (
@@ -59,27 +59,145 @@ const Navbar = () => {
             <div className="offcanvas-body">
               <div className="navbar-nav">
                 <li data-bs-toggle="offcanvas">
-                  <Link className="nav-item nav-link d-flex justify-content-center" to="/">
+                  <Link
+                    className="nav-item nav-link d-flex justify-content-center"
+                    to="/"
+                  >
                     Home
                   </Link>
                 </li>
                 <li data-bs-toggle="offcanvas">
-                  <Link className="nav-item nav-link d-flex justify-content-center" to="/about">
+                  <Link
+                    className="nav-item nav-link d-flex justify-content-center"
+                    to="/about"
+                  >
                     About
                   </Link>
                 </li>
-                <li data-bs-toggle="offcanvas">
-                  <Link className="nav-item nav-link d-flex justify-content-center" to="/products">
+                <li className="dropdown">
+                  <a
+                    className="nav-item nav-link dropdown-toggle text-center"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Products
-                  </Link>
+                  </a>
+                  <ul
+                    className="dropdown-menu text-center dropdown-menu-center"
+                    aria-labelledby="dropdownMenuLink"
+                  >
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/sphereCylinders">
+                        Sphere Cylinders
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link
+                        className="dropdown-item"
+                        to="/sphereCylindersSeriesP"
+                      >
+                        Sphere Cylinders Series P
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link
+                        className="dropdown-item"
+                        to="/sphereCylindersSeriesQ"
+                      >
+                        Sphere Cylinders Series Q
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/eyeCylinders">
+                        Eye Cylinders
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/eyeCylindersSeriesP">
+                        Eye Cylinders Series P
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/underNutCylinders">
+                        Under Nut Cylinders
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
-                <li data-bs-toggle="offcanvas">
-                  <Link className="nav-item nav-link d-flex justify-content-center" to="/accessories">
+                <li className="dropdown">
+                  <a
+                    className="nav-item nav-link dropdown-toggle text-center"
+                    role="button"
+                    id="dropdownMenuLink2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Accessories
-                  </Link>
+                  </a>
+                  <ul
+                    className="dropdown-menu text-center dropdown-menu-center"
+                    aria-labelledby="dropdownMenuLink2"
+                  >
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/Cots">
+                        Cots
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/ClosedSupports">
+                        Closed Supports
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/OpenSupports">
+                        Open Supports
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/EndOfStrokeValve">
+                        End Of Stroke Valve
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link
+                        className="dropdown-item"
+                        to="/DIrectionalSolenoidValves"
+                      >
+                        Directional Solenoid Valves
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link
+                        className="dropdown-item"
+                        to="/DirectionalHydraulicsValves"
+                      >
+                        Directional Hydraulic Valves
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/NutsKit">
+                        Nuts Kit
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/GasketKit">
+                        Gasket Kit
+                      </Link>
+                    </li>
+                    <li data-bs-toggle="offcanvas">
+                      <Link className="dropdown-item" to="/GuideRingKit">
+                        Guide Ring Kit
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li data-bs-toggle="offcanvas">
-                  <Link className="nav-item nav-link d-flex justify-content-center" to="/contact">
+                  <Link
+                    className="nav-item nav-link d-flex justify-content-center"
+                    to="/contact"
+                  >
                     Contact
                   </Link>
                 </li>

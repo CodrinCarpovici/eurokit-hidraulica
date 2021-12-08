@@ -118,4 +118,45 @@ $blue-gradient: linear-gradient(to left, #00a6f3, white);
   .nav-link:hover {
     border-bottom: 0.1875rem solid $orange;
   }
+
+  @media (min-width: 1200px) {
+    .dropdown {
+      .dropdown-menu-center {
+        right: auto;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+
+  .dropdown {
+    .dropdown-menu {
+      .dropdown-item {
+        color: black;
+        font-weight: 500;
+        font-size: 18px;
+        border: 0.1875rem solid transparent;
+        text-transform: uppercase;
+      }
+
+      .dropdown-item.active,
+      .dropdown-item:focus,
+      .dropdown-item:hover {
+        border-bottom: 0.1875rem solid $orange;
+        transition: ease-in-out 0.2s;
+      }
+    }
+  }
+
+  .navbar-nav li:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0px;
+  }
+
+  .navbar-nav li>.dropdown-menu {
+    display: none;
+    margin-top: 0px;
+  }
 }

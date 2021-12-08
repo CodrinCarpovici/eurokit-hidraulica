@@ -6,7 +6,7 @@ import "./Home.scss";
 import Header from "../Header/Header";
 
 //ASSETS
-import home2 from "../../assets/img/home2.jpg";
+import home2 from "../../assets/img/SphereHeader.jpg";
 import home1 from "../../assets/img/home1.jpg";
 import home3 from "../../assets/img/home3.jpg";
 
