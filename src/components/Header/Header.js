@@ -11,7 +11,7 @@ const Header = () => {
       <p className="header-text">
         We offer a wide range of telescopic cylinders <br />
         suited for any needs. Check out our Contact <br />
-        section to let us know of your query and the
+        section to let us know of your query and the  &nbsp;
         <br />
         Products page to see our range.
       </p>

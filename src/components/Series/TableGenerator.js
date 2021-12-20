@@ -2,7 +2,7 @@ import React from "react";
 import tableData from "./tableData1.js";
 
 const TableComponent = ({ data }) => {
-let headings = Object.keys(data[0]);
+  let headings = Object.keys(data[0]);
   return (
     <table className="table table-dark table-striped">
       <thead>
@@ -30,8 +30,13 @@ let headings = Object.keys(data[0]);
   );
 };
 
-const TableGenerator = ( {targetID} ) => {
-  const filteredData = tableData.filter(item => item.id == targetID ).map(item => item.value);
+const TableGenerator = ({ targetID }) => {
+  const filteredData = tableData
+    .filter((item) => item.id == targetID)
+    .reduce((acc, item) => {
+      acc = [...acc, ...item.value];
+      return acc;
+    }, []);
   return <TableComponent data={filteredData} />;
 };
 

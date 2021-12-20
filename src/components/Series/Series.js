@@ -6,8 +6,6 @@ import TableGenerator from "./TableGenerator.js";
 import TableGenerator2 from "./TableGenerator2.js";
 
 //Data Imports
-import tableData1 from "./tableData1.js";
-import tableData2 from "./tableData2.js";
 import pageData from "./pageData.js";
 
 

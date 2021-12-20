@@ -36,7 +36,7 @@ const TableComponent2 = ({ data }) => {
 
 const TableGenerator2 = ( {targetID} ) => {
   const filteredData = tableData.filter(item => item.id == targetID ).map(item => item.value);
-  return <TableComponent2 data={filteredData} />;
+  return <TableComponent2 data={filteredData[0]} />;
 };
 
 export default TableGenerator2;
