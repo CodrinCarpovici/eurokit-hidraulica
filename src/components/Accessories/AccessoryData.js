@@ -24,7 +24,7 @@ import directionalHydraulicValveDiagram from "../../assets/img/directionalHydrau
 
 //Nuts Kit
 import nutsHeader from "../../assets/img/nutsHeader.jpg";
-import nutsDiagram from "../../assets/img/nutsDiagram.png";
+import nutsDiagram from "../../assets/img/nutsDiagram.jpg";
 
 //Gasket Kit
 import gasketKitHeader from "../../assets/img/gasketKitHeader.jpg";

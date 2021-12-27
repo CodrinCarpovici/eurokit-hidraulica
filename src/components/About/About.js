@@ -23,13 +23,20 @@ const About = () => {
               Euro Kit Hidraulica
             </h4>
             <p className="about-p">
-              We have been operating since 2011 and have increased our stock
-              tenfold since then.
+              We are a company with experience in satisfying customers who need
+              tipping kits. Our stock includes: Tipping cylinders (for vans,
+              Trucks and Semi-trailers, with a tonnage from 7.5 tons to 100
+              tons.), Hydraulic pumps (for Excavators, trucks, etc.), Gearbox
+              couplings, Hydraulic distributors and a range of accessories to
+              complement those kits.
             </p>
             <p className="about-p">
-              We are an official representative of Cus-Hydraulics.<br/>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Our products are European certified. We offer consulting in
+              choosing the right product.
+            </p>
 
+            <p className="about-p">
+              We are an official representative of CUS Hydraulics.
             </p>
           </div>
         </div>

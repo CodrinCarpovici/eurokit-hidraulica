@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Search from "./components/Search/Search";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 
 //Products
 import Products from "./components/Products/Products";
@@ -36,10 +37,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 //ROUTER
 import { Switch, Route } from "react-router-dom";
 
-
-
 function App() {
-  
   return (
     <div className="App">
       <Navbar />
@@ -54,8 +52,14 @@ function App() {
 
         <Route path="/products" component={Products} />
         <Route path="/sphereCylinders" component={sphereCylinders} />
-        <Route path="/sphereCylindersSeriesP" component={sphereCylindersSeriesP} />
-        <Route path="/sphereCylindersSeriesQ" component={sphereCylindersSeriesQ} />
+        <Route
+          path="/sphereCylindersSeriesP"
+          component={sphereCylindersSeriesP}
+        />
+        <Route
+          path="/sphereCylindersSeriesQ"
+          component={sphereCylindersSeriesQ}
+        />
         <Route path="/eyeCylinders" component={eyeCylinders} />
         <Route path="/eyeCylindersSeriesP" component={eyeCylindersSeriesP} />
         <Route path="/underNutCylinders" component={underNutCylinders} />
@@ -66,15 +70,19 @@ function App() {
         <Route path="/OpenSupports" component={openSupports} />
         <Route path="/EndOFStrokeValve" component={strokeValve} />
         <Route path="/DirectionalSolenoidValves" component={directionalValve} />
-        <Route path="/DirectionalHydraulicsValves" component={directionalHydraulicValve} />
+        <Route
+          path="/DirectionalHydraulicsValves"
+          component={directionalHydraulicValve}
+        />
         <Route path="/NutsKit" component={nutsKit} />
         <Route path="/GasketKit" component={gasketKit} />
         <Route path="/GuideRingKit" component={guideRingKit} />
 
-
         <Route path="/contact" component={Contact} />
         <Route component={Error} />
       </Switch>
+
+      <Footer />
     </div>
   );
 }

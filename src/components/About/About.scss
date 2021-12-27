@@ -4,7 +4,7 @@ $orange: rgba(255, 125, 39, 1);
 $orange-gradient: linear-gradient(270deg, rgba(255, 125, 39, 1) 0%, rgba(0, 166, 243, 1) 72.92%);
 
 #about {
-  position: absolute;
+  position: relative;
   background-color: $light-gray;
   z-index: 99;
   max-width: 100vw !important;
