@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="col-lg-6 col-xm-12 about-text">
           <h3 className="header" id="title">
-            OUR COMPANY
+            DESPRE NOI
           </h3>
 
           <div className="text-wrapper">
@@ -23,20 +23,22 @@ const About = () => {
               Euro Kit Hidraulica
             </h4>
             <p className="about-p">
-              We are a company with experience in satisfying customers who need
-              tipping kits. Our stock includes: Tipping cylinders (for vans,
-              Trucks and Semi-trailers, with a tonnage from 7.5 tons to 100
-              tons.), Hydraulic pumps (for Excavators, trucks, etc.), Gearbox
-              couplings, Hydraulic distributors and a range of accessories to
-              complement those kits.
+              Suntem o companie cu experienta in a satisface clientii care au
+              nevoie de truse de basculare. Stocul nostru include: Cilindri
+              basculanți (pentru autoutilitare, Camioane și Semiremorci, cu un
+              tonaj de la 7,5 tone la 100 tone), Pompe hidraulice (pentru
+              excavatoare, camioane, etc.), Cuplaje cutie de viteze,
+              Distribuitoare hidraulice și o gamă de accesorii pentru a completa
+              aceste Kituri.
             </p>
             <p className="about-p">
-              Our products are European certified. We offer consulting in
-              choosing the right product.
+              Vindem produse din import cu factura si garantie. Produsele
+              noastre sunt certificate europene. Oferim consultanta in alegerea
+              produsului potrivit.
             </p>
 
             <p className="about-p">
-              We are an official representative of CUS Hydraulics.
+              Suntem reprezentanți oficiali ai CUS Hydraulics.
             </p>
           </div>
         </div>

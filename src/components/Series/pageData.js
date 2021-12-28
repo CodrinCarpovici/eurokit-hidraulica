@@ -32,14 +32,14 @@ const data = [
   {
     id: 1,
     value: {
-      title: "Sphere Cylinders",
+      title: "Cilindri cu Sferă",
       headerImage: SphereHeader,
       description: [
-        { id: 1, name: "Version available in stock" },
-        { id: 2, name: "Never exceed the maximum tipping capacity" },
+        { id: 1, name: "Versiune disponibilă în stoc" },
+        { id: 2, name: "Nu depășiți niciodată capacitatea maximă de răsturnare" },
         {
           id: 3,
-          name: "Capacity in Kg. For each single Parade - Max working pressure 200 Bar",
+          name: "Capacitate în Kg. Pentru fiecare sfilata - Presiune maximă de lucru 200 Bar",
         },
       ],
       componentsImage: SphereDiagram1,
@@ -49,14 +49,14 @@ const data = [
   {
     id: 2,
     value: {
-      title: "Sphere Cylinders P",
+      title: "Cilindri cu Sferă Serie P",
       headerImage: SphereHeaderP,
       description: [
-        { id: 1, name: "Version available in stock" },
-        { id: 2, name: "Never exceed the maximum tipping capacity" },
+        { id: 1, name: "Versiune disponibilă în stoc" },
+        { id: 2, name: "Nu depășiți niciodată capacitatea maximă de răsturnare" },
         {
           id: 3,
-          name: "Capacity in Kg. For each single Parade - Max working pressure 200 Bar",
+          name: "Capacitate în Kg. Pentru fiecare sfilata - Presiune maximă de lucru 200 Bar",
         },
       ],
       componentsImage: SphereDiagramP1,
@@ -66,14 +66,14 @@ const data = [
   {
     id: 3,
     value: {
-      title: "Sphere Cylinders Q",
+      title: "Cilindri cu Sferă Serie Q",
       headerImage: SphereHeaderQ,
       description: [
-        { id: 1, name: "Version available in stock" },
-        { id: 2, name: "Never exceed the maximum tipping capacity" },
+        { id: 1, name: "Versiune disponibilă în stoc" },
+        { id: 2, name: "Nu depășiți niciodată capacitatea maximă de răsturnare" },
         {
           id: 3,
-          name: "Capacity in Kg. For each single Parade - Max working pressure 200 Bar",
+          name: "Capacitate în Kg. Pentru fiecare sfilata - Presiune maximă de lucru 200 Bar",
         },
       ],
       componentsImage: SphereDiagramQ1,
@@ -83,14 +83,14 @@ const data = [
   {
     id: 4,
     value: {
-      title: "Eye Cylinders",
+      title: "Cilindri cu Ochi",
       headerImage: EyeHeader,
       description: [
-        { id: 1, name: "Version available in stock" },
-        { id: 2, name: "Never exceed the maximum tipping capacity" },
+        { id: 1, name: "Versiune disponibilă în stoc" },
+        { id: 2, name: "Nu depășiți niciodată capacitatea maximă de răsturnare" },
         {
           id: 3,
-          name: "Capacity in Kg. For each single Parade - Max working pressure 200 Bar",
+          name: "Capacitate în Kg. Pentru fiecare sfilata - Presiune maximă de lucru 200 Bar",
         },
       ],
       componentsImage: EyeDiagram1,
@@ -100,14 +100,14 @@ const data = [
   {
     id: 5,
     value: {
-      title: "Eye Cylinders P",
+      title: "Cilindri cu Ochi Serie P",
       headerImage: EyeHeaderP,
       description: [
-        { id: 1, name: "Version available in stock" },
-        { id: 2, name: "Never exceed the maximum tipping capacity" },
+        { id: 1, name: "Versiune disponibilă în stoc" },
+        { id: 2, name: "Nu depășiți niciodată capacitatea maximă de răsturnare" },
         {
           id: 3,
-          name: "Capacity in Kg. For each single Parade - Max working pressure 200 Bar",
+          name: "Capacitate în Kg. Pentru fiecare sfilata - Presiune maximă de lucru 200 Bar",
         },
       ],
       componentsImage: EyeDiagramP1,
@@ -117,14 +117,14 @@ const data = [
   {
     id: 6,
     value: {
-      title: "Under Nut Cylinders",
+      title: "Cilindri Sub Benă",
       headerImage: UnderNutHeader,
       description: [
-        { id: 1, name: "Version available in stock" },
-        { id: 2, name: "Never exceed the maximum tipping capacity" },
+        { id: 1, name: "Versiune disponibilă în stoc" },
+        { id: 2, name: "Nu depășiți niciodată capacitatea maximă de răsturnare" },
         {
           id: 3,
-          name: "Capacity in Kg. For each single Parade - Max working pressure 200 Bar",
+          name: "Capacitate în Kg. Pentru fiecare sfilata - Presiune maximă de lucru 200 Bar",
         },
       ],
       componentsImage: UnderNutDiagram1,

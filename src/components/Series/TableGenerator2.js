@@ -7,11 +7,11 @@ const TableComponent2 = ({ data }) => {
     <table className="table table-dark table-striped">
       <thead>
         <tr>
-          <th colspan="2">Sphere Cylinders</th>
-          <th colspan="1">Length(mm.)</th>
-          <th colspan="1">Units(No.)</th>
-          <th colspan="8">Units(diam. in mm)</th>
-          <th colspan="1">Weight(kg)</th>
+          <th colspan="2">Cilindri</th>
+          <th colspan="1">Lungime(mm.)</th>
+          <th colspan="1">Unități(No.)</th>
+          <th colspan="8">Unități(diam. in mm)</th>
+          <th colspan="1">Greutate(kg)</th>
         </tr>
         <tr scope="col">
           {headings.map((heading) => (

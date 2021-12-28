@@ -38,7 +38,7 @@ const data = [
     {
       id: 1,
       value: {
-        title: "Cots",
+        title: "Culle",
         headerImage: cotsHeader,
         diagramImage: cotsDiagram
       }
@@ -46,7 +46,7 @@ const data = [
     {
         id: 2,
         value: {
-          title: "Closed Supports",
+          title: "Suporturi Inchise",
           headerImage: closedSupportHeader,
           diagramImage: closedSupportDiagram
         }
@@ -54,7 +54,7 @@ const data = [
       {
         id: 3,
         value: {
-          title: "Open Supports",
+          title: "Suporturi Deschise",
           headerImage: openSupportHeader,
           diagramImage: openSupportDiagram
         }
@@ -62,7 +62,7 @@ const data = [
       {
         id: 4,
         value: {
-          title: "End Of Stroke Valves",
+          title: "Supape De Sfârșit De Cursă",
           headerImage: strokeHeader,
           diagramImage: strokeDiagram
         }
@@ -70,7 +70,7 @@ const data = [
       {
         id: 5,
         value: {
-          title: "Directional Solenoid Valves",
+          title: "Supape Direcționale cu Solenoid",
           headerImage: directionalValveHeader,
           diagramImage: directionalValveDiagram
         }
@@ -78,7 +78,7 @@ const data = [
       {
         id: 6,
         value: {
-          title: "Directional Hydraulic Valves",
+          title: "Supape Hidraulice Direcționale",
           headerImage: directionalHydraulicValveHeader,
           diagramImage: directionalHydraulicValveDiagram
         }
@@ -86,7 +86,7 @@ const data = [
       {
         id: 7,
         value: {
-          title: "Nuts Kit",
+          title: "Kit chiocciole",
           headerImage: nutsHeader,
           diagramImage: nutsDiagram
         }
@@ -94,7 +94,7 @@ const data = [
       {
         id: 8,
         value: {
-          title: "Gasket Kit",
+          title: "Kit Garnituri",
           headerImage: gasketKitHeader,
           diagramImage: gasketKitDiagram
         }
@@ -102,7 +102,7 @@ const data = [
       {
         id: 9,
         value: {
-          title: "Guide Ring Kit",
+          title: "Kit Inel De Ghid",
           headerImage: guideRingKitHeader,
           diagramImage: guideRingKitDiagram
         }

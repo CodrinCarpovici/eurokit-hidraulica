@@ -48,9 +48,9 @@ const Contact = () => {
       <div className="contact-wrapper">
         <div className="text-center">
           <div className="d-flex justify-content-center my-5">
-            <h1 className="contact-header">Contact Us</h1>
+            <h1 className="contact-header">Contact</h1>
           </div>
-          <p>Please fill out the form below.</p>
+          <p>Vă rugăm să completați formularul de mai jos.</p>
 
           <span className="success-message">{successMessage}</span>
         </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                     id="name"
                     type="text"
                     className="form-control"
-                    placeholder="Name"
+                    placeholder="Nume"
                     name="name"
                     {...register("name", {
                       required: true,
@@ -78,12 +78,12 @@ const Contact = () => {
                 </div>
                 {errors.name && errors.name.type === "required" && (
                   <span className="error-message" role="alert">
-                    Please input your name
+                    Vă rugăm să introduceți numele dvs
                   </span>
                 )}
                 {errors.name && errors.name.type === "maxLength" && (
                   <span className="error-message" role="alert">
-                    Max Length exceeded
+                    Lungimea maximă a fost depășită
                   </span>
                 )}
                 {/* PHONE INPUT */}
@@ -92,7 +92,7 @@ const Contact = () => {
                     id="text"
                     type="text"
                     className="form-control"
-                    placeholder="Phone Number (Optional)"
+                    placeholder="Număr de Telefon (Opțional)"
                     name="phone"
                     {...register("phone", {
                       required: false,
@@ -119,12 +119,12 @@ const Contact = () => {
 
                 {errors.email && errors.email.type === "required" && (
                   <span className="error-message" role="alert">
-                    Please add your email address
+                    Vă rugăm să adăugați adresa dvs. de e-mail
                   </span>
                 )}
                 {errors.email && errors.email.type === "pattern" && (
                   <span className="error-message" role="alert">
-                    Invalid email address
+                    Adresă de e-mail invalidă
                   </span>
                 )}
 
@@ -134,7 +134,7 @@ const Contact = () => {
                     id="subject"
                     type="text"
                     className="form-control"
-                    placeholder="Subject"
+                    placeholder="Subiect"
                     name="subject"
                     {...register("subject", {
                       required: true,
@@ -144,7 +144,7 @@ const Contact = () => {
                 </div>
                 {errors.subject && errors.subject.type === "required" && (
                   <span className="error-message" role="alert">
-                    Oops! You forgot to add your subject
+                    Ați uitat să adăugați subiectul
                   </span>
                 )}
               </div>
@@ -155,7 +155,7 @@ const Contact = () => {
                     id="description"
                     input="text"
                     className="form-control"
-                    placeholder="Please describe your query..."
+                    placeholder="Descriere..."
                     name="description"
                     {...register("description", {
                       required: true,
@@ -165,12 +165,12 @@ const Contact = () => {
                 </div>
                 {errors.description && errors.description.type === "required" && (
                   <span className="error-message" role="alert">
-                    Please add a description of your query
+                    Vă rugăm să adăugați o descriere a interesului dvs
                   </span>
                 )}
 
                 <button className="contact-btn" type="submit">
-                  Submit
+                  Trimite
                 </button>
               </div>
             </div>

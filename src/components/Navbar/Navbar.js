@@ -71,7 +71,7 @@ const Navbar = () => {
                     className="nav-item nav-link d-flex justify-content-center"
                     to="/about"
                   >
-                    About
+                    Despre&nbsp;Noi
                   </Link>
                 </li>
                 <li className="dropdown">
@@ -82,7 +82,7 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Products
+                    Produse
                   </a>
                   <ul
                     className="dropdown-menu text-center dropdown-menu-center"
@@ -90,7 +90,7 @@ const Navbar = () => {
                   >
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/sphereCylinders">
-                        Sphere Cylinders
+                        Cilindri cu Sferă
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
@@ -98,7 +98,7 @@ const Navbar = () => {
                         className="dropdown-item"
                         to="/sphereCylindersSeriesP"
                       >
-                        Sphere Cylinders Series P
+                        Cilindri cu Sferă Serie P
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
@@ -106,22 +106,22 @@ const Navbar = () => {
                         className="dropdown-item"
                         to="/sphereCylindersSeriesQ"
                       >
-                        Sphere Cylinders Series Q
+                        Cilindri cu Sferă Serie Q
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/eyeCylinders">
-                        Eye Cylinders
+                        Cilindri cu Ochi
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/eyeCylindersSeriesP">
-                        Eye Cylinders Series P
+                      Cilindri cu Ochi Serie P
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/underNutCylinders">
-                        Under Nut Cylinders
+                        Cilindri Sub Benă
                       </Link>
                     </li>
                   </ul>
@@ -134,7 +134,7 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Accessories
+                    Accesorii
                   </a>
                   <ul
                     className="dropdown-menu text-center dropdown-menu-center"
@@ -142,22 +142,22 @@ const Navbar = () => {
                   >
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/Cots">
-                        Cots
+                        Culle
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/ClosedSupports">
-                        Closed Supports
+                        Suporturi inchise
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/OpenSupports">
-                        Open Supports
+                        Suporturi Deschise
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/EndOfStrokeValve">
-                        End Of Stroke Valve
+                        Supape De Sfârșit De Cursă
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
@@ -165,7 +165,7 @@ const Navbar = () => {
                         className="dropdown-item"
                         to="/DIrectionalSolenoidValves"
                       >
-                        Directional Solenoid Valves
+                        Supape Direcționale cu Solenoid
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
@@ -173,22 +173,22 @@ const Navbar = () => {
                         className="dropdown-item"
                         to="/DirectionalHydraulicsValves"
                       >
-                        Directional Hydraulic Valves
+                        Supape Hidraulice Direcționale
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/NutsKit">
-                        Nuts Kit
+                      Kit chiocciole
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/GasketKit">
-                        Gasket Kit
+                        Kit Garnituri
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/GuideRingKit">
-                        Guide Ring Kit
+                        Kit Inel De Ghid
                       </Link>
                     </li>
                   </ul>

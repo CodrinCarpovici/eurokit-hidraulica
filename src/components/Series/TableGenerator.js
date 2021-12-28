@@ -7,10 +7,10 @@ const TableComponent = ({ data }) => {
     <table className="table table-dark table-striped">
       <thead>
         <tr>
-          <th colspan="16">Dimensions in mm</th>
+          <th colspan="16">Dimensiuni în mm</th>
         </tr>
         <tr scope="col">
-          <th>Series</th>
+          <th>Serie</th>
           {headings.map((heading) => (
             <th>{heading}</th>
           ))}
@@ -19,7 +19,7 @@ const TableComponent = ({ data }) => {
       <tbody>
         {data.map((item) => (
           <tr scope="col">
-            <th scope="row">Series No.</th>
+            <th scope="row">Nr. Serie</th>
             {headings.map((heading) => (
               <td>{item[heading]}</td>
             ))}

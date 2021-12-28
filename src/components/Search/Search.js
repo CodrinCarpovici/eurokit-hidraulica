@@ -15,7 +15,7 @@ const Search = () => (
             
               className="form-control searchfield rounded-pill-left border-right-0 shadow-none"
               type="search"
-              placeholder="Search..."
+              placeholder="Căutare..."
               aria-label="Search"
             />
             <span class="input-group-append">

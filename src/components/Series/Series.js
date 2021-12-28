@@ -43,12 +43,12 @@ const Series = ({
           </div>
         </div>
 
-        <h2 className="sub-header text-center">Product Information</h2>
+        <h2 className="sub-header text-center">Informații despre Produs</h2>
         <div className="row table-container table-responsive ">
           <TableGenerator2 targetID={filteredID} />
         </div>
 
-        <h2 className="sub-header text-center">Components Dimensions</h2>
+        <h2 className="sub-header text-center">Dimensiunile Componentelor</h2>
 
         <div className="row">
           <div className="col-lg-6 col-xm-12">
@@ -63,7 +63,7 @@ const Series = ({
           </div>
         </div>
 
-        <h2 className="sub-header text-center">Pressure</h2>
+        <h2 className="sub-header text-center">Presiune</h2>
 
         <div className="img-container">
           <img className="table-img-2" src={pressureImage}></img>

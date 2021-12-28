@@ -7,16 +7,16 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header-intro start-50 translate-middle-x">
-      <h1 className="title">Telescopic Hydraulic Cylinders</h1>
+      <h1 className="title">Cilindri Telescopici Hidraulici</h1>
       <p className="header-text">
-        We offer a wide range of telescopic cylinders <br />
-        suited for any needs. Check out our Contact <br />
-        section to let us know of your query and the  &nbsp;
+        Oferim o gamă largă de cilindri telescopici hidraulici <br />
+        potriviti pentru orice necesitate. Consultați pagina noastră <br />
+        de Contact pentru a ne informa despre orice interese &nbsp;
         <br />
-        Products page to see our range.
+        și pagina Produse pentru a vedea gama noastră.
       </p>
       <Link className="btn products-offer shadow-none" to="/products">
-        Products
+        Produse
       </Link>
       <Link className="btn contact-offer shadow-none" to="/contact">
         Contact

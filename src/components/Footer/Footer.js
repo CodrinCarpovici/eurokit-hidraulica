@@ -34,12 +34,12 @@ const Footer = () => {
                             <div className="col">
                                 <Link to="/" className="footer-nav">Home</Link>
                                 <br />
-                                <Link to="/about" className="footer-nav">About</Link>
+                                <Link to="/about" className="footer-nav">Despre Noi</Link>
                                 <br />
-                                <Link to="/products" className="footer-nav">Products</Link>
+                                <Link to="/products" className="footer-nav">Produse</Link>
                             </div>
                             <div className="col">
-                                <Link to="/accessories" className="footer-nav">Accessories</Link>
+                                <Link to="/accessories" className="footer-nav">Accesorii</Link>
                                 <br />
                                 <Link to="/contact" className="footer-nav">Contact</Link>
                             </div>
