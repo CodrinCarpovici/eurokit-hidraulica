@@ -4,13 +4,12 @@ import tableData from "./tableData1.js";
 const TableComponent = ({ data }) => {
   let headings = Object.keys(data[0]);
   return (
-    <table className="table table-dark table-striped">
+    <table className="table table-dark table-striped table-bordered">
       <thead>
         <tr>
           <th colspan="16">Dimensiuni în mm</th>
         </tr>
-        <tr scope="col">
-          <th>Serie</th>
+        <tr className="t-heading" scope="col">
           {headings.map((heading) => (
             <th>{heading}</th>
           ))}
@@ -18,8 +17,7 @@ const TableComponent = ({ data }) => {
       </thead>
       <tbody>
         {data.map((item) => (
-          <tr scope="col">
-            <th scope="row">Nr. Serie</th>
+          <tr className="t-content" scope="col">
             {headings.map((heading) => (
               <td>{item[heading]}</td>
             ))}

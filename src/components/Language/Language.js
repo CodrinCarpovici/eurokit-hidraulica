@@ -17,15 +17,18 @@ const Language = () => {
         <img className="globe" src={globe}></img>
       </a>
 
-      <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+      <ul
+        className="dropdown-menu dropdown-menu-end"
+        aria-labelledby="dropdownMenuLink"
+      >
         <li>
           <a className="dropdown-item" href="#">
-            English
+            Română
           </a>
         </li>
         <li>
           <a className="dropdown-item" href="#">
-            Romana
+            English
           </a>
         </li>
       </ul>

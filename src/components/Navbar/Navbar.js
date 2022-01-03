@@ -116,7 +116,7 @@ const Navbar = () => {
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/eyeCylindersSeriesP">
-                      Cilindri cu Ochi Serie P
+                        Cilindri cu Ochi Serie P
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
@@ -178,7 +178,7 @@ const Navbar = () => {
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/NutsKit">
-                      Kit chiocciole
+                        Kit chiocciole
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
@@ -210,7 +210,7 @@ const Navbar = () => {
         <div className="col-md-auto d-flex justify-content-end top-right-links">
           {/* LOG IN */}
 
-          <Login />
+
 
           {/* LANGUAGE */}
           <Language />

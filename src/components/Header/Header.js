@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import "./Header.scss";
 
@@ -15,12 +16,20 @@ const Header = () => {
         <br />
         și pagina Produse pentru a vedea gama noastră.
       </p>
-      <Link className="btn products-offer shadow-none" to="/products">
-        Produse
-      </Link>
-      <Link className="btn contact-offer shadow-none" to="/contact">
-        Contact
-      </Link>
+
+      <div className="btn-group d-flex justify-content-center">
+        <Link className="col btn products-offer shadow-none" to="/products">
+          Produse
+        </Link>
+
+        <Link className="col btn accessories-offer shadow-none" to="/accessories">
+          Accesorii
+        </Link>
+
+        <Link className="col btn contact-offer shadow-none" to="/contact">
+          Contact
+        </Link>
+      </div>
     </div>
   );
 };

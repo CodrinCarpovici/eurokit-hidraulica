@@ -139,5 +139,17 @@ $orange: rgba(255, 125, 39, 1);
 
   .table-container {
     max-width: 100% !important;
+
+    white-space: nowrap;
+
+    .t-heading {
+      font-size: 14px;
+    }
+  
+    .t-content {
+      font-size: 12px;
+    }
   }
+
+  
 }

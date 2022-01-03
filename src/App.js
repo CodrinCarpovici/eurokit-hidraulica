@@ -17,7 +17,7 @@ import eyeCylindersSeriesP from "./components/Series/eyeCylindersSeriesP";
 import underNutCylinders from "./components/Series/underNutCylinders";
 
 //Accessories
-import Accessories from "./components/Accessories/Accessories";
+import Accessories from "./components/AccessoriesMain/Accessories";
 import cots from "./components/Accessories/cots";
 import closedSupports from "./components/Accessories/closedSupports";
 import openSupports from "./components/Accessories/openSupports";
@@ -30,6 +30,7 @@ import guideRingKit from "./components/Accessories/guideRingKit";
 
 import Contact from "./components/Contact/Contact";
 import Error from "./components/Error/Error";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 //Bootstrap
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -46,6 +47,7 @@ function App() {
       <Search />
 
       {/* ROUTES */}
+      <ScrollToTop>  
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} />
@@ -81,6 +83,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route component={Error} />
       </Switch>
+      </ScrollToTop>
 
       <Footer />
     </div>

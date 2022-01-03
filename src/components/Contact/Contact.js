@@ -134,7 +134,7 @@ const Contact = () => {
                     id="subject"
                     type="text"
                     className="form-control"
-                    placeholder="Subiect"
+                    placeholder="Produs"
                     name="subject"
                     {...register("subject", {
                       required: true,

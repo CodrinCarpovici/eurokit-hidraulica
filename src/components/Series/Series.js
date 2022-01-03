@@ -45,7 +45,7 @@ const Series = ({
 
         <h2 className="sub-header text-center">Informații despre Produs</h2>
         <div className="row table-container table-responsive ">
-          <TableGenerator2 targetID={filteredID} />
+          <TableGenerator2 className="table-content" targetID={filteredID} />
         </div>
 
         <h2 className="sub-header text-center">Dimensiunile Componentelor</h2>
@@ -58,7 +58,7 @@ const Series = ({
           </div>
           <div className="col-lg-6 col-xm-12 d-flex justify-content-end">
             <div className="table-container table-responsive ">
-              <TableGenerator targetID={filteredID} />
+              <TableGenerator className="table-content" targetID={filteredID} />
             </div>
           </div>
         </div>

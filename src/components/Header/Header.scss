@@ -48,7 +48,6 @@ $dark-blue: rgb(0, 121, 177);
     font-weight: 700;
     padding: 7px;
     border-radius: 5px;
-    margin-right: 20px;
   }
 
   .products-offer:hover {
@@ -56,30 +55,41 @@ $dark-blue: rgb(0, 121, 177);
     color: white;
   }
 
-  .contact-offer {
+  .accessories-offer {
     position: absolute;
     top: 102%;
-    left: 23%;
     background-color: $blue;
     color: white;
     font-size: 28px;
     font-weight: 700;
     padding: 7px;
     border-radius: 5px;
-    margin-right: 20px;
   }
 
-  .contact-offer:hover {
+  .accessories-offer:hover {
     background-color: $dark-blue;
     color: white;
   }
 
+  .contact-offer {
+    position: absolute;
+    top: 102%;
+    background-color: $orange;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+  }
+
+  .contact-offer:hover {
+    background-color: $dark-orange;
+    color: white;
+  }
+
   @media (max-width: 768px) {
-    .contact-offer, .products-offer {
+    .contact-offer, .products-offer, .accessories-offer {
       font-size: 24px;
-    }
-    .contact-offer {
-      left: 46%;
     }
   }
 
@@ -87,17 +97,11 @@ $dark-blue: rgb(0, 121, 177);
     .contact-offer, .products-offer {
       font-size: 20px;
     }
-    .contact-offer {
-      left: 46%;
-    }
   }
 
   @media (max-width: 280px) {
     .contact-offer, .products-offer {
       font-size: 20px;
-    }
-    .contact-offer {
-      left: 50%;
     }
   }
   

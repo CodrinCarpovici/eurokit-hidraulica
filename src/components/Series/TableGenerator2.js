@@ -4,16 +4,9 @@ import tableData from "./tableData2.js";
 const TableComponent2 = ({ data }) => {
   let headings = Object.keys(data[0]);
   return (
-    <table className="table table-dark table-striped">
+    <table className="table table-dark table-striped table-bordered">
       <thead>
-        <tr>
-          <th colspan="2">Cilindri</th>
-          <th colspan="1">Lungime(mm.)</th>
-          <th colspan="1">Unități(No.)</th>
-          <th colspan="8">Unități(diam. in mm)</th>
-          <th colspan="1">Greutate(kg)</th>
-        </tr>
-        <tr scope="col">
+        <tr className="t-heading" scope="col">
           {headings.map((heading) => (
             <th>{heading}</th>
           ))}
@@ -21,21 +14,22 @@ const TableComponent2 = ({ data }) => {
       </thead>
       <tbody>
         {data.map((item) => (
-          <tr scope="col">
+          <tr className="t-content" scope="col">
             {headings.map((heading) => (
               <td>{item[heading]}</td>
             ))}
           </tr>
+          
         ))}
       </tbody>
     </table>
   );
 };
 
-
-
-const TableGenerator2 = ( {targetID} ) => {
-  const filteredData = tableData.filter(item => item.id == targetID ).map(item => item.value);
+const TableGenerator2 = ({ targetID }) => {
+  const filteredData = tableData
+    .filter((item) => item.id == targetID)
+    .map((item) => item.value);
   return <TableComponent2 data={filteredData[0]} />;
 };
 

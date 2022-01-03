@@ -9,7 +9,7 @@ $orange-gradient: linear-gradient(
 );
 $blue: rgba(0, 166, 243, 1);
 
-#products {
+#accessories {
   z-index: 99;
   max-width: 100vw !important;
   margin-top: 130px;
@@ -30,7 +30,7 @@ $blue: rgba(0, 166, 243, 1);
     background: $orange;
     padding: 1rem 1rem;
     border-radius: 5px !important;
-    max-width: 500px;
+    max-width: 400px;
   }
 
   .text-wrapper {
@@ -38,7 +38,6 @@ $blue: rgba(0, 166, 243, 1);
     background: $dark-grey;
     padding: 1rem 1rem;
     border-radius: 5px !important;
-    max-width: 1000px;
     font-weight: 500;
     font-size: 18px;
   }
@@ -118,8 +117,6 @@ $blue: rgba(0, 166, 243, 1);
       font-size: 16px;
       width: 95%;
     }
-
-    
 
     .header {
       font-size: 1.5rem;

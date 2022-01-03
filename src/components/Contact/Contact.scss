@@ -10,7 +10,6 @@ $orange: rgba(255, 125, 39, 1);
 $dark-grey: #212529bb;
 
 #contact {
-  height: calc(100vh - 85px);
   background-color: white;
   z-index: 99;
   max-width: 100vw !important;
@@ -43,7 +42,7 @@ $dark-grey: #212529bb;
   textarea {
     width: 100%;
     box-sizing: border-box;
-    background: white;
+    background: #E8F0FE;
     resize: none;
     border: 0;
     border-bottom: 0.125rem transparent;
