@@ -38,7 +38,7 @@ const data = [
     {
       id: 1,
       value: {
-        title: "Culle",
+        title: "Balama",
         headerImage: cotsHeader,
         diagramImage: cotsDiagram
       }
@@ -86,7 +86,7 @@ const data = [
       {
         id: 7,
         value: {
-          title: "Kit chiocciole",
+          title: "Kit suport Sferă",
           headerImage: nutsHeader,
           diagramImage: nutsDiagram
         }

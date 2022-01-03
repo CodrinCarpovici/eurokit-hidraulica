@@ -142,7 +142,7 @@ const Navbar = () => {
                   >
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/Cots">
-                        Culle
+                        Balama
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">
@@ -178,7 +178,7 @@ const Navbar = () => {
                     </li>
                     <li data-bs-toggle="offcanvas">
                       <Link className="dropdown-item" to="/NutsKit">
-                        Kit chiocciole
+                        Kit Suport Sferă
                       </Link>
                     </li>
                     <li data-bs-toggle="offcanvas">

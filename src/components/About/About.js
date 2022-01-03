@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 
-import home1 from "../../assets/img/home1.jpg";
+import logo from "../../assets/img/logoSmall.png";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <div className="row content">
         <div className="col-lg-6 col-xm-12 d-flex justify-content-center">
           <div className="img-wrapper">
-            <img className="about-img" src={home1} alt="author..."></img>
+            <img className="about-img" src={logo} alt="author..."></img>
           </div>
         </div>
 
