@@ -1,0 +1,119 @@
+$dark-grey: rgba(169, 169, 169, 1);
+$light-gray: rgba(221, 220, 220, 0.705);
+$dark-orange: rgba(240, 96, 0, 1);
+$orange: rgba(255, 125, 39, 1);
+$blue: rgba(0, 166, 243, 1);
+$blue-gradient: linear-gradient(to left, #00a6f3, white);
+
+//*****************LOG IN*****************//
+
+#login {
+  display: inline-block;
+  border: 1px solid $dark-orange !important;
+  border-radius: 5px !important;
+  background: $dark-orange !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  white-space: nowrap !important;
+  color: black;
+}
+
+#login:hover {
+  color: rgb(255, 255, 255) !important;
+  background: $orange !important;
+
+  .person-log {
+    filter: invert(99%) sepia(4%) saturate(63%) hue-rotate(281deg) brightness(114%) contrast(100%);
+    transition: 0.1s ease-in;
+  }
+}
+
+@media (max-width: 515px) {
+  #login {
+    max-width: 50px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #login {
+    width: 50px !important;
+    height: auto !important;
+  }
+}
+
+#login-dp {
+  width: 250px !important;
+  padding: 14px 14px;
+  overflow: hidden;
+  background-color: rgba(255,255,255,.92) !important;
+  font-weight: 500;
+  font-size: 14px;
+
+  
+
+  .help-block {
+    font-size: 12px;
+  }
+  .bottom {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+    min-width: 100% !important;
+  }
+  .social-buttons {
+    margin: 12px 0;
+    white-space: nowrap !important;
+
+    .btn-fb {
+      color: #fff;
+      background: #3b5998;
+      margin-right: 5px;
+      font-weight: 700;
+      font-size: 14px !important;
+    }
+    .btn-fb:hover {
+      color: #fff;
+      background-color: #496ebc;
+    }
+    .btn-tw {
+      color: #fff;
+      background-color: #55acee;
+      font-weight: 700;
+      font-size: 14px !important;
+    }
+    .btn-tw:hover {
+      color: #fff;
+      background-color: #59b5fa;
+    }
+
+    a {
+      width: 49%;
+    }
+  }
+  .form-group {
+    margin-bottom: 10px;
+
+    .sign-in{
+      background-color: $orange !important;
+      border-color: $orange !important;
+      width: 200px;
+      font-weight: 700;
+      font-size: 14px !important;
+    }
+  }
+
+  .checkbox-log {
+    font-weight: 500;
+    font-size: 12px !important;
+  }
+
+  
+}
+
+@media (max-width: 400px) {
+  #login-dp {
+    width: 240px !important;
+  }
+}

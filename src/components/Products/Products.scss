@@ -1,0 +1,129 @@
+$light-gray: rgb(230, 230, 230);
+$dark: rgba(0, 0, 0, 0.219);
+$dark-grey: #212529;
+$orange: rgba(255, 125, 39, 1);
+$orange-gradient: linear-gradient(
+  270deg,
+  rgba(255, 125, 39, 1) 0%,
+  rgba(0, 166, 243, 1) 72.92%
+);
+$blue: rgba(0, 166, 243, 1);
+
+#products {
+  z-index: 99;
+  max-width: 100vw !important;
+  margin-top: 130px;
+  overflow-x: hidden;
+
+  .products-wrapper {
+    position: relative;
+  }
+
+  .header {
+    font-weight: 700;
+    margin: 0 0 0.625rem;
+    color: white !important;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: white;
+    background: $orange;
+    padding: 1rem 1rem;
+    border-radius: 5px !important;
+    max-width: 500px;
+  }
+
+  .text-wrapper {
+    color: white;
+    background: $dark-grey;
+    padding: 1rem 1rem;
+    border-radius: 5px !important;
+    max-width: 1000px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .img-wrapper {
+    position: relative;
+    margin: 1rem;
+
+    .image {
+      width: 24rem;
+      height: 16.5rem;
+      border-radius: 1rem !important;
+      border: 3px solid $blue;
+      padding: 0.2rem 0.2rem;
+    }
+
+    img {
+      object-fit: cover;
+    }
+
+    .col {
+      clear: left;
+    }
+  }
+
+  .overflow {
+    position: absolute;
+    background: $dark;
+    width: 24rem;
+    height: 16.5rem;
+    border-radius: 1rem !important;
+    top: 0;
+    border: 3px solid $blue;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+
+    h3 {
+      position: absolute;
+      margin-top: 61%;
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    .hover-text {
+      position: relative;
+      background: $orange;
+      opacity: 0.9;
+      color: rgb(255, 255, 255);
+      width: 24rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .img-wrapper {
+      .image {
+        width: 16rem;
+        height: 11rem;
+      }
+    }
+
+    .overflow {
+      width: 16rem;
+      height: 11rem;
+
+      h3 {
+        margin-top: 61%;
+        font-size: 1rem;
+      }
+
+      .hover-text {
+        width: 16rem;
+      }
+    }
+
+    .text-wrapper {
+      font-size: 16px;
+      width: 95%;
+    }
+
+    
+
+    .header {
+      font-size: 1.5rem;
+      width: 95%;
+    }
+  }
+}
