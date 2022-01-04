@@ -213,7 +213,7 @@ const Navbar = () => {
 
 
           {/* LANGUAGE */}
-          <Language />
+
         </div>
       </div>
     </nav>

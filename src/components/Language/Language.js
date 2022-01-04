@@ -1,9 +1,17 @@
 import React from "react";
 import "./Language.scss";
+import { useTranslation } from "react-i18next";
 
 import globe from "bootstrap-icons/icons/globe.svg";
 
 const Language = () => {
+
+  const { t, i18n } = useTranslation();
+
+  function handleClick(lang) {
+    i18n.changeLanguage(lang);
+  }
+
   return (
     <div className="dropdown language d-inline-block ">
       <a
@@ -22,14 +30,14 @@ const Language = () => {
         aria-labelledby="dropdownMenuLink"
       >
         <li>
-          <a className="dropdown-item" href="#">
+          <button className="dropdown-item" onClick={() => handleClick('ro')}>
             Română
-          </a>
+          </button>
         </li>
         <li>
-          <a className="dropdown-item" href="#">
+          <button className="dropdown-item" onClick={() => handleClick('en')}>
             English
-          </a>
+          </button>
         </li>
       </ul>
     </div>
