@@ -39,14 +39,11 @@ $dark-blue: rgb(0, 121, 177);
 
   //Link Buttons
   .products-offer {
-    position: absolute;
-    top: 102%;
     left: 0%;
     background-color: $orange;
     color: white;
     font-size: 28px;
     font-weight: 700;
-    padding: 7px;
     border-radius: 5px;
   }
 
@@ -56,13 +53,10 @@ $dark-blue: rgb(0, 121, 177);
   }
 
   .accessories-offer {
-    position: absolute;
-    top: 102%;
     background-color: $blue;
     color: white;
     font-size: 28px;
     font-weight: 700;
-    padding: 7px;
     border-radius: 5px;
   }
 
@@ -72,13 +66,10 @@ $dark-blue: rgb(0, 121, 177);
   }
 
   .contact-offer {
-    position: absolute;
-    top: 102%;
     background-color: $orange;
     color: white;
     font-size: 28px;
     font-weight: 700;
-    padding: 7px;
     border-radius: 5px;
   }
 
