@@ -1,0 +1,86 @@
+$orange: rgba(255, 125, 39, 1);
+$dark-grey: #212529bb;
+$light-grey: rgb(202, 202, 202);
+
+.footer {
+  color: $dark-grey;
+  background: white;
+  padding: 1rem;
+  width: 100%;
+  height: 9rem;
+  bottom: 0px;
+  z-index: 100;
+  display: inline-block;
+  position: relative;
+
+
+  a {
+    text-decoration: none;
+    color: $dark-grey;
+    font-size: 15px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $orange;
+    cursor: pointer;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .pt-3 {
+    font-size: 80%;
+  }
+}
+
+.clipboard-btn {
+  background: white;
+  color: $dark-grey;
+  box-shadow: 1px 2px;
+  border-radius: 1rem !important;
+}
+
+//Tooltip
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  width: 50px;
+  background-color: white;
+  color: $dark-grey;
+  text-align: center;
+  padding: 0.1rem 0;
+  border: 0.125rem solid $dark-grey;
+  border-radius: 1rem;
+  opacity: 0;
+  transition: opacity 0.4s;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.clipboard-btn:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent $dark-grey transparent transparent;
+}
+
+@media (max-width: 330px) {
+  .footer {
+    padding: 1rem;
+  }
+}

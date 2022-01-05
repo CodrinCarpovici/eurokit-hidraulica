@@ -1,0 +1,85 @@
+$dark-grey: rgba(169, 169, 169, 1);
+$light-gray: rgba(169, 169, 169, 1);
+$dark-orange: rgba(240, 96, 0, 1);
+$orange: rgba(255, 125, 39, 1);
+$light-orange: rgb(248, 197, 164);
+$orange-gradient: linear-gradient(to left, $orange, white);
+
+//******************SEARCH****************//
+
+.searchbar {
+  position: fixed !important;
+  z-index: 100;
+  top: 8%;
+
+  .visually-hidden1 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .searchfield,
+  .searchfield:focus {
+    border: 3px solid $orange;
+  }
+
+  .btn-secondary {
+    border: 3px solid $orange !important;
+    color: white !important;
+    background-color: $orange !important;
+    display: inline-block;
+  }
+
+  .btn-secondary:hover {
+    background-color: $dark-orange !important;
+    color: white !important;
+  }
+
+  .search-icon {
+    filter: invert(99%) sepia(4%) saturate(63%) hue-rotate(281deg)
+      brightness(114%) contrast(100%);
+    transition: 0.1s ease-in;
+  }
+
+  /* Rounded pill classes for horizontal sides */
+  .rounded-pill-left {
+    border-top-left-radius: 50rem !important;
+    border-bottom-left-radius: 50rem !important;
+  }
+  .rounded-pill-right {
+    border-top-right-radius: 50rem !important;
+    border-bottom-right-radius: 50rem !important;
+  }
+
+  /* Other classes to use */
+  .rounded-t-l-0 {
+    border-top-left-radius: 0 !important;
+  }
+  .rounded-t-r-0 {
+    border-top-right-radius: 0 !important;
+  }
+  .rounded-b-l-0 {
+    border-bottom-left-radius: 0 !important;
+  }
+  .rounded-b-r-0 {
+    border-bottom-right-radius: 0 !important;
+  }
+  .rounded-x-l-0 {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .rounded-x-r-0 {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchbar {
+    top: 14% !important;
+  }
+}

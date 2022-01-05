@@ -19,6 +19,7 @@ The designs were created to the following widths:
 ### Neutral
 
 - Light Gray: rgba(169, 169, 169, 1)
+- Dark Grey: rgba(169, 169, 169, 1)
 - Black: rgba(0, 0, 0, 1)
 
 ## Typography

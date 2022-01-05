@@ -1,0 +1,39 @@
+$dark-grey: rgba(169, 169, 169, 1);
+$light-gray: rgba(169, 169, 169, 1);
+$dark-orange: rgba(240, 96, 0, 1);
+$orange: rgba(255, 125, 39, 1);
+$blue: rgba(0, 166, 243, 1);
+$blue-gradient: linear-gradient(to left, #00a6f3, white);
+
+//*****************LANGUAGE********************//
+
+.language {
+  color: black;
+  display: inline-block;
+  
+  .dropdown-menu {
+    background-color: rgba(255,255,255,.92) !important;
+  }
+
+  .globe {
+    color: white;
+  }
+}
+
+.language:hover {
+  color: white !important;
+  background: $blue !important;
+
+  .globe {
+    filter: invert(99%) sepia(4%) saturate(63%) hue-rotate(281deg) brightness(114%) contrast(100%);
+    transition: 0.1s ease-in;
+  }
+}
+
+@media (max-width: 515px) {
+  .language {
+    max-width: 50px !important;
+    height: auto !important;
+  }
+}
+
