@@ -23,7 +23,7 @@ const Footer = () => {
                                 className="clipboard-btn"
                                 onClick={() => navigator.clipboard.writeText('EUROKITEMAILFILL@gmail.com')}
                             >
-                                EUROKITEMAILFILL@gmail.com
+                                eurokitnechita@gmail.com
                                 <span class="tooltiptext"><FontAwesomeIcon className="clipboard-icon" icon={faClipboard} /></span>
                             </button>
 
