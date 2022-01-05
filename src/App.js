@@ -44,7 +44,7 @@ function App() {
       <Navbar />
 
       {/* SEARCH */}
-      <Search />
+
 
       {/* ROUTES */}
       <ScrollToTop>  

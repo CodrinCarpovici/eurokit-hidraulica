@@ -14,7 +14,7 @@ const Contact = () => {
 
   const serviceID = "service_ID";
   const templateID = "template_ID";
-  const userID = "user_kCXB3pkiAi4JWj1VGMohn"; {/*NEEDS CHANGING */}
+  const userID = "user_h7OwgQ6JlnhRoFVB9O39n"; {/*NEEDS CHANGING */}
 
   const onSubmit = (data, r) => {
     sendEmail(
@@ -28,19 +28,17 @@ const Contact = () => {
         description: data.description,
       },
       userID
-    );
+    )
     r.target.reset();
-  };
+  }
 
   const sendEmail = (serviceID, templateID, variables, userID) => {
-    emailjs
-      .send(serviceID, templateID, variables, userID)
+    emailjs.send(serviceID, templateID, variables, userID)
       .then(() => {
         setSuccessMessage(
-          "Form sent successfully! I'll contact you as soon as possible."
+          "Formularul a fost trimis cu succes! Vă vom contacta în curând."
         );
-      })
-      .catch((err) => console.err(`Something went wrong ${err}`));
+      }).catch(err => console.log(`Something went wrong ${err}`));
   };
 
   return (

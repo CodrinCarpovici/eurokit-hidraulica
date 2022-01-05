@@ -41,7 +41,7 @@ const Accessories = () => {
           >
             <img className="image" src={cotsHeader}></img>
             <Link to="/Cots" className="overflow">
-              <h3 className="hover-text text-center">Culle</h3>
+              <h3 className="hover-text text-center">Balama</h3>
             </Link>
           </motion.div>
           <motion.div
