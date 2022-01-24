@@ -25,7 +25,7 @@ const Products = () => {
           Întreaga gamă de Cilindri Telescopici Hidraulici, din stocul nostru,
           este realizată cu materiale de calitate superioară și cu tehnici de
           construcție de ultimă generație care permit performanțe și
-          durabilitate mai mari.
+          durabilitate mai mari. Producția este facută de către C.U.S. Hydraulics.
         </p>
 
         <p>
