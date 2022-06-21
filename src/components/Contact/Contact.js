@@ -14,7 +14,10 @@ const Contact = () => {
 
   const serviceID = "service_ID";
   const templateID = "template_ID";
-  const userID = "user_h7OwgQ6JlnhRoFVB9O39n"; {/*NEEDS CHANGING */}
+  const userID = "user_h7OwgQ6JlnhRoFVB9O39n";
+  {
+    /*NEEDS CHANGING */
+  }
 
   const onSubmit = (data, r) => {
     sendEmail(
@@ -28,17 +31,19 @@ const Contact = () => {
         description: data.description,
       },
       userID
-    )
+    );
     r.target.reset();
-  }
+  };
 
   const sendEmail = (serviceID, templateID, variables, userID) => {
-    emailjs.send(serviceID, templateID, variables, userID)
+    emailjs
+      .send(serviceID, templateID, variables, userID)
       .then(() => {
         setSuccessMessage(
           "Formularul a fost trimis cu succes! Vă vom contacta în curând."
         );
-      }).catch(err => console.log(`Something went wrong ${err}`));
+      })
+      .catch((err) => console.log(`Something went wrong ${err}`));
   };
 
   return (
@@ -48,15 +53,20 @@ const Contact = () => {
           <div className="d-flex justify-content-center my-5">
             <h1 className="contact-header">Contact</h1>
           </div>
-          <p>Vă rugăm să completați formularul de mai jos.</p>
+          <p>
+            Ne puteti contacta la numarul de telefon:{" "}
+            <a href="tel:40722111051">+40 722 111 051</a> și la adresa de
+            e-mail:{" "}
+            <a href="mailto:eurokithidronechita@gmail.com">
+              eurokithidronechita@gmail.com
+            </a>
+          </p>
+          <p>Alternativ vă rugăm să completați formularul de mai jos.</p>
 
           <span className="success-message">{successMessage}</span>
         </div>
         <div className="container">
-          <form
-            onSubmit={handleSubmit(onSubmit)}
-            onSubmit={handleSubmit(onSubmit)}
-          >
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="row mb-1">
               <div className="col-lg-6 col-xs-12">
                 {/* NAME INPUT */}
